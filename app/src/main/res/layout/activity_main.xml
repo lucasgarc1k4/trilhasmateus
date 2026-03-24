@@ -5,6 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:backgroundTint="#F0F0F0"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,20 +14,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
+        android:background="#8F72C8"
         android:gravity="center"
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView12"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:srcCompat="@drawable/ic_action_name" />
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/_247779" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
+        android:background="#8F72C8"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -34,6 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Entrar"
+            android:textColorLink="#141010"
             android:textSize="34sp" />
     </LinearLayout>
 </LinearLayout>
